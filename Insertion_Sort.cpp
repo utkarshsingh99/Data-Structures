@@ -2,8 +2,13 @@
 using namespace std;
 
 int main() {
-    int arr[7] = {12, 1, 24, 46, 2, 23, 21};
-    for(int i = 0; i < 7; i++) {
+    int n;
+	cout<<"Enter number of elements:";
+	cin>>n;
+    int arr[1000];
+	for(int i = 0; i < n; i++)
+		cin>>arr[i];
+    for(int i = 0; i < n; i++) {
         for(int j = i; j >= 0; j--) {
             if(arr[j] < arr[j-1]) {
                 int temp = arr[j];
@@ -12,7 +17,7 @@ int main() {
             }
         }
     }
-    for(int i = 0; i < 7; i ++) {
+    for(int i = 0; i < n; i ++) {
         cout<<arr[i]<<" ";
     }
     cout<<endl;
