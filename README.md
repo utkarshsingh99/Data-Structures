@@ -4,5 +4,10 @@ Open for **error resolving, bug/loophole finding;** not for **contributions** :)
 
 
 # Index
-Coming Soon
+
+| Algorithm                       |       Date            |
+| ------------------------------- | :----------------------:|
+| Bubble Sort & Binary Search     |      30/01/19         |
+| Insertion Sort | 30/01/19 |
+
 
